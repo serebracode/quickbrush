@@ -1,7 +1,8 @@
 # encoding: utf-8
 
 import math
-from Foundation import NSPoint, NSRect, NSSize, objc
+from Foundation import NSPoint, NSRect, NSSize
+import objc
 from AppKit import NSBezierPath, NSColor, NSImage
 from GlyphsApp import GSNode, GSPath
 from GlyphsApp.plugins import SelectTool
