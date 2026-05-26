@@ -22,6 +22,10 @@
 	<string>QuickBrushTool</string>
 	<key>NSPrincipalClass</key>
 	<string>QuickBrushTool</string>
+	<key>PyMainFileNames</key>
+	<array>
+		<string>plugin.py</string>
+	</array>
 	<key>productReleaseNotes</key>
 	<string>Custom rectangular brush with angle, thickness and smoothing controls.</string>
 </dict>
