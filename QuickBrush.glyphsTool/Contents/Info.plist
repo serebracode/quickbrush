@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
+	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>plugin</string>
 	<key>CFBundleIdentifier</key>
@@ -18,10 +18,10 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>GlyphsPluginClass</key>
-	<string>QuickBrushTool</string>
-	<key>NSPrincipalClass</key>
-	<string>QuickBrushTool</string>
+	<key>Principal Classes</key>
+	<array>
+		<string>QuickBrushTool</string>
+	</array>
 	<key>PyMainFileNames</key>
 	<array>
 		<string>plugin.py</string>

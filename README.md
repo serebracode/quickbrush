@@ -24,3 +24,15 @@ Expected files:
 - `Contents/Resources/plugin.py`
 - `Contents/Resources/toolbarIcon.svg`
 - `Contents/Resources/preview.svg`
+
+## Release/export (only latest plugin bundle)
+To upload/distribute only the plugin from the latest build, package just `QuickBrush.glyphsTool` into a zip:
+
+```bash
+./scripts/package_latest_plugin.sh
+```
+
+Output:
+- `dist/QuickBrush-latest.glyphsTool.zip`
+
+This archive contains only the plugin bundle (no `donor/`, scripts, or repository metadata).
