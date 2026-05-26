@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 180">
+  <rect width="480" height="180" rx="14" fill="#f8fafc"/>
+  <g stroke="#0f172a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 135 L40 45 M140 135 L140 45 M40 90 L140 90" stroke-width="6"/>
+    <path d="M200 135 L200 45 C200 45 280 45 280 90 C280 135 200 135 200 135 Z" stroke-width="6"/>
+  </g>
+  <g opacity="0.9">
+    <path d="M42 42 L142 42 L142 57 L42 57 Z" fill="#38bdf8" transform="rotate(-12 92 49.5)"/>
+    <path d="M39 84 L139 84 L139 99 L39 99 Z" fill="#0ea5e9" transform="rotate(-12 89 91.5)"/>
+    <path d="M36 126 L136 126 L136 141 L36 141 Z" fill="#0284c7" transform="rotate(-12 86 133.5)"/>
+    <path d="M200 40 C230 45 260 52 278 90 C257 126 228 133 200 136" stroke="#0369a1" stroke-width="18"/>
+  </g>
+  <text x="18" y="22" font-family="Helvetica" font-size="16" fill="#334155">HO strokes + brush example</text>
+</svg>
