@@ -79,11 +79,13 @@ class QuickBrushTool(SelectTool):
         layer.shapes.append(path)
 
     def mouseDown_(self, event):
-        pos = self.getActiveLocation_(event)
+        view = self.editViewController().graphicView()
+        pos = view.getActiveLocation_(event)
         self._rawPoints = [NSPoint(pos.x, pos.y)]
 
     def mouseDragged_(self, event):
-        pos = self.getActiveLocation_(event)
+        view = self.editViewController().graphicView()
+        pos = view.getActiveLocation_(event)
         self._rawPoints.append(NSPoint(pos.x, pos.y))
         self.redraw()
 
