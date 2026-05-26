@@ -24,6 +24,7 @@ with open(p,'rb') as f:
     d=plistlib.load(f)
 assert d.get('CFBundleExecutable')=='plugin', 'CFBundleExecutable must be plugin'
 assert 'PyMainFileNames' in d and 'plugin.py' in d['PyMainFileNames'], 'PyMainFileNames must include plugin.py'
+assert 'Principal Classes' in d and len(d['Principal Classes']) > 0, 'Principal Classes must define at least one plugin class'
 print('Plist keys look good')
 PY
 
